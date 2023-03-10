@@ -11,7 +11,7 @@ class Korg extends React.Component{
                 <div className="um1" style={{backgroundColor: "white"}}>
                   <div className="grid-container4">   
                     <div className="product1">
-                        <img id="kundkBild"  src={require('../files/hanu.png')} />
+                        <img id="kundkBild"  src={require('../files/hanu.png')} alt="picture1" />
                       </div>
                       <div className="product">
                           <p3>
@@ -23,7 +23,7 @@ class Korg extends React.Component{
                           </p3>
                       </div>
                       <div className="product2">
-                        <img id="kundkBild" src={require('../files/pust.jpg')} />
+                        <img id="kundkBild" src={require('../files/pust.jpg')} alt="picture2" />
                       </div>
                       <div className="product">
                         <p3>

@@ -9,14 +9,14 @@ class Prod extends React.Component{
               <div className="contentIn">
                 <div className="left" id ="left">
                   filtrera 
-                  <img id="logo_image" src={require('../files/downarrow.png')} />
+                  <img id="logo_image" src={require('../files/downarrow.png')} alt="down" />
                 </div>
                 <div className="middle" id ="middle">
                   ALLA PRODUKTER
                 </div>  
                 <div className="right" id ="right">
                   sortera
-                  <img id="logo_image" src={require('../files/downarrow.png')} />
+                  <img id="logo_image" src={require('../files/downarrow.png')} alt="down" />
                 </div>
               </div>
               <ul className="grid-wrapper">

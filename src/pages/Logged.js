@@ -22,7 +22,7 @@ class Logged extends React.Component{
             </div>
           </div>
           <div className="um2">
-            <img id="info" src={require('../files/info.png')} />
+            <img id="info" src={require('../files/info.png')} alt="info"/>
           </div>
         </div>
       </div>
