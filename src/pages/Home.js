@@ -6,7 +6,7 @@ function onChange(value) {
 
 
 const Home = () => {
-  const [] = useState(false);
+  useState(false);
 
 
   function inputBlur() {
