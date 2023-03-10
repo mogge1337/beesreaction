@@ -51,7 +51,7 @@ class Korg extends React.Component{
                   </div>
                   <div>
                     <p9>
-                    lagg till rabattkod
+                    lagg till rabattkod:
                     </p9>
                     <br/>
                     <p3>
