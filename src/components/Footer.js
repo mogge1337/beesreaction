@@ -3,10 +3,10 @@ import React from "react";
 class Footer extends React.Component{
   render(){
     return(
-      <div class="footer" id="foot">
-        <div class="left">
-          <p3 class="paragraph">OM OSS</p3>
-          <p2 class="paragraph">
+      <div className="footer" id="foot">
+        <div className="left">
+          <p3 className="paragraph">OM OSS</p3>
+          <p2 className="paragraph">
           <br></br>
           KUNDTJÄNST 	- kl 10-16
           <br></br>
@@ -18,19 +18,19 @@ class Footer extends React.Component{
           <br></br>
           </p2>
         </div>
-        <div class="middle">
+        <div className="middle">
           <a href="https://www.facebook.com/profile.php?id=100054669720271">
-            <img class="object-position-1" id="logo_image" src={require('../files/facebook.png')} alt="Facebook" /></a>
+            <img className="object-position-1" id="logo_image" src={require('../files/facebook.png')} alt="Facebook" /></a>
           <a href="https://www.pinterest.se/bigarden/"> 
-            <img class="object-position-1" id="logo_image" src={require('../files/pintrest.png')} alt="Pintrest" /></a>
+            <img className="object-position-1" id="logo_image" src={require('../files/pintrest.png')} alt="Pintrest" /></a>
         </div>  
-        <div class="right">
-          <p3 class="paragraph">INFORMATION</p3>
-          <p2 class="paragraph">
+        <div className="right">
+          <p3 className="paragraph">INFORMATION</p3>
+          <p2 className="paragraph">
           <br></br>
-          <a href="/Info" class="myLink">BETALNING OCH LEVERANSVILKOR</a>
+          <a href="/Info" className="myLink">BETALNING OCH LEVERANSVILKOR</a>
           <br></br>
-          <a href="/Info" class="myLink">INTEGRITETSPOLICY</a>
+          <a href="/Info" className="myLink">INTEGRITETSPOLICY</a>
           </p2>
         </div>
       </div>
