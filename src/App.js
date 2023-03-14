@@ -13,11 +13,11 @@ import {BrowserRouter as Router, Route, Routes} from "react-router-dom";
 import './App.css';
 
 function App() {
-  return <div class="grid-container">
+  return <div className="grid-container">
     <Header />
     <Router>
       <Routes>
-        <Route exact path="/" element={<Home/>} />
+        <Route exact path="/" element={<Prod/>} />
         <Route path="/Info" element={<Info/>} />
         <Route path="/Prod" element={<Prod/>} /> 
         <Route path="/Korg" element={<Korg/>} /> 
