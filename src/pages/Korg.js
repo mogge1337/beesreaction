@@ -1,5 +1,4 @@
 import React from "react";
-/*Comment*/
 
 class Korg extends React.Component{
   render(){

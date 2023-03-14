@@ -1,5 +1,4 @@
 import React from "react";
-/*Comment*/
 
 class Logged extends React.Component{
   render(){

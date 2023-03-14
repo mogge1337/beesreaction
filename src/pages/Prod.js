@@ -1,5 +1,4 @@
 import React from "react";
-/*Comment*/
 
 class Prod extends React.Component{
   render(){
