@@ -14,18 +14,18 @@ import './App.css';
 
 function App() {
   return <div className="grid-container">
-    <Header />
     <Router>
+      <Header />
       <Routes>
         <Route exact path="/" element={<Prod/>} />
         <Route path="/Info" element={<Info/>} />
-        <Route path="/Prod" element={<Prod/>} /> 
+        <Route path="/Prod" element={<Home/>} /> 
         <Route path="/Korg" element={<Korg/>} /> 
         <Route path="/Loggin" element={<Loggin/>} /> 
         <Route path="/Logged" element={<Logged/>} /> 
       </Routes>
+      <Footer/>
     </Router>
-    <Footer/>
   </div>;
 }
 
