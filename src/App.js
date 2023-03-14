@@ -17,9 +17,9 @@ function App() {
     <Router>
       <Header />
       <Routes>
-        <Route exact path='/' element={<Prod/>} />
+        <Route exact path='/' element={<Home/>} />
         <Route path='/Info' element={<Info/>} />
-        <Route path='/Prod' element={<Home/>} /> 
+        <Route path='/Prod' element={<Prod/>} /> 
         <Route path='/Korg' element={<Korg/>} /> 
         <Route path='/Loggin' element={<Loggin/>} /> 
         <Route path='/Logged' element={<Logged/>} /> 
